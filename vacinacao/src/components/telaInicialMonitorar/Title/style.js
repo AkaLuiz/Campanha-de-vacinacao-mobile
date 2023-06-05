@@ -37,14 +37,14 @@ const styles = StyleSheet.create({
         alignItems: "center",
     },
     button: {
-        borderRadius: 50,
+        borderRadius: 15,
         width: "50%",
         height: "7%",
         backgroundColor: "#89C5FD",
         alignItems: "center",
         justifyContent: "center",
         alignSelf: "center",
-        top: "5%",
+        top: "10%",
     },
     buttonText:{
         fontFamily: "CairoRegular",

@@ -2,10 +2,10 @@ import { Text, View, Image, TouchableOpacity } from 'react-native';
 import {useFonts} from "expo-font";
 import styles from "./style"
 
-export default function Form({ navigation }) {
+export default function CadastrarLogar({ navigation }) {
   const[fontsLoaded] = useFonts({
-    CairoRegular: require("C:/Users/luizc/vacinacao/vacinacao/assets/fonts/Cairo-Regular.ttf"),
-    InterRegular: require("C:/Users/luizc/vacinacao/vacinacao/assets/fonts/Inter-Regular.ttf"),
+    CairoRegular: require("C:/Users/luizc/Campanha-de-vacinacao-mobile/vacinacao/assets/fonts/Cairo-Regular.ttf"),
+    InterRegular: require("C:/Users/luizc/Campanha-de-vacinacao-mobile/vacinacao/assets/fonts/Inter-Regular.ttf"),
   })
   return (
     <View style={styles.fundo}>
@@ -26,13 +26,13 @@ export default function Form({ navigation }) {
         />
       
         <TouchableOpacity
-      onPress={() => navigation.navigate('Tela')}
+      onPress={() => navigation.navigate('Logar')}
       style={[styles.button, styles.shadowProp]}
       >
       <Text style={styles.buttonText}>Logar</Text>
       </TouchableOpacity>
       <TouchableOpacity
-      onPress={() => navigation.navigate('Tela')}
+      onPress={() => navigation.navigate('Cadastrar')}
       style={styles.buttonC}
       >
       <Text style={styles.buttonTextC}>Cadastrar</Text>

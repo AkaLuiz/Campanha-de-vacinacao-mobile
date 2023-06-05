@@ -1,26 +1,26 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    img: {
-        position: "absolute",
-        width: "85%",
-        height: "80%",
-        bottom: "70%",
-        alignSelf: "center",
-    },
-    imgSe: {
-        position: "absolute",
-        width: "14%",
-        height: "18%",
-        bottom: "55%",
-        alignSelf: "center",
-    },
     imgSMV: {
         position: "absolute",
         width: "20%",
         height: "15%",
         top: "5%",
         alignSelf: "center",
+    },
+    user: {
+        position: "absolute",
+        width: "4%",
+        height: "3%",
+        top: "28%",
+        left:"20%",
+    },
+    password: {
+        position: "absolute",
+        width: "4%",
+        height: "3%",
+        top: "48%",
+        left:"20%",
     },
     fundo:{
         height:"100%",
@@ -29,16 +29,20 @@ const styles = StyleSheet.create({
     },
     text: {
         fontFamily: "InterRegular",
-        fontSize: 25,
-        textAlign: "center",
-        alignItems: "center",
-        color: "#000000",
-        padding: 30,
+        fontSize: 15,
+        color: "#46A6FF",
+    },
+    input:{
+        borderBottomColor: "#0D5692",
+        borderBottomWidth: 2,
+        width: "60%",
+        margin: "10%",
         top: "20%",
+        textAlign: "center",
     },
     retangulo:{
         position: "absolute",
-        height:"40%",
+        height:"75%",
         width:"100%",
         bottom:0,
         backgroundColor: "#FFFFFF",
@@ -49,30 +53,35 @@ const styles = StyleSheet.create({
     button: {
         borderRadius: 15,
         width: "50%",
-        height: "17%",
+        height: "12%",
         backgroundColor: "#89C5FD",
         alignItems: "center",
         justifyContent: "center",
-        top: "53%",
+        top:"27%",
+    },
+    buttonText:{
+        color: "white",
+        fontFamily: "CairoRegular",
+        fontSize: 20,
     },
     buttonC: {
+        borderRadius: 15,
         width: "50%",
-        height: "17%",
+        height: "12%",
         alignItems: "center",
         justifyContent: "center",
-        top: "53%",
+        top:"27%",
+        margin: "3%",
+        backgroundColor: "#eeeeee",
     },
     buttonTextC:{
         fontFamily: "CairoRegular",
         fontSize: 20,
         color: "#89C5FD",
     },
-    buttonText:{
-        color: "white",
-        fontFamily: "CairoRegular",
-        fontSize: 20,
-        justifyContent: "center",
-    },
+    EsqueceuButton: {
+        top:"25%",
+    }
 });
 
 export default styles
